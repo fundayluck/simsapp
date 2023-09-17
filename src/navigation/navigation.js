@@ -22,13 +22,13 @@ function MyTabs() {
             initialRouteName='Home'
         >
             <Tab.Screen
-                name="Topup"
+                name="Top Up"
                 component={Topup}
                 options={{
                     tabBarActiveTintColor: COLOR.primary,
                     headerShown: false,
                     tabBarIcon: ({ focused, color, size }) => {
-                        return <Icon name={'send'} size={25} color={focused ? COLOR.primary : color} />
+                        return <Icon name={'cash-outline'} size={25} color={focused ? COLOR.primary : color} />
                     }
                 }}
             />
